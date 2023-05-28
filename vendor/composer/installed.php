@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => 'b69b6a0fb13ee017017097bcd91e3dd80a644ddb',
         'name' => '__root__',
         'dev' => true,
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'b69b6a0fb13ee017017097bcd91e3dd80a644ddb',
             'dev_requirement' => false,
         ),
         'spipu/html2pdf' => array(
@@ -26,6 +26,15 @@
             'install_path' => __DIR__ . '/../spipu/html2pdf',
             'aliases' => array(),
             'reference' => '119d660876546c6b496f8aa6490f1ab8111350f9',
+            'dev_requirement' => false,
+        ),
+        'stefangabos/zebra_pagination' => array(
+            'pretty_version' => '2.4.2',
+            'version' => '2.4.2.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../stefangabos/zebra_pagination',
+            'aliases' => array(),
+            'reference' => '1b75050519c19de59b70464de7cc02abcbe75a76',
             'dev_requirement' => false,
         ),
         'tecnickcom/tcpdf' => array(
